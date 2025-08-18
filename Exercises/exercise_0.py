@@ -1,9 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 #   a) Do some EDA with info, find out column names, shape of dataset, describe method to get summary descriptive statistics.
 
-df = pd.read_csv("data/norway_new_car_sales_by_month.csv")
+df = pd.read_csv("../data/norway_new_car_sales_by_month.csv")
 df.info()
 #   b) Draw a line chart of quantity for each year. Is there a year that should be skipped?
 
@@ -76,12 +77,12 @@ df_electric = df.dropna(subset=["Import_Electric"])
 df_diesel_share = df.groupby("Year")["Diesel_Share"].mean().reset_index()
 print(df_diesel_share)
 
-plt.figure(figsize=(12,6))
-plt.plot(df_diesel_share["Year"], df_diesel_share["Diesel_Share"], marker="o")
-plt.title("Diesel share per year")
-plt.xlabel("Year")
-plt.ylabel("Diesel share in %")
-plt.show()
+# plt.figure(figsize=(12,6))
+# plt.plot(df_diesel_share["Year"], df_diesel_share["Diesel_Share"], marker="o")
+# plt.title("Diesel share per year")
+# plt.xlabel("Year")
+# plt.ylabel("Diesel share in %")
+# plt.show()
 
 #   h) Discuss some findings with a friend based on this dataset, and do plot more graphs
 
