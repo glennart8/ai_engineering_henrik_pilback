@@ -4,6 +4,8 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from fastapi.encoders import jsonable_encoder
 
+# uvicorn main:app --reload för att starta
+
 app = FastAPI()
 
 # Väljer enum för att begräna vilka värden som kan finnas, går ej att ändra

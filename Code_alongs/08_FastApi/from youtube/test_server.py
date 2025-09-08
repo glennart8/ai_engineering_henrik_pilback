@@ -37,10 +37,15 @@ import requests
 
 # UPPDATERA ITEM
 
-r = requests.put(
-    "http://127.0.0.1:8000/update/0?name=NewHammer&price=12.99&count=25"
-)
-print(r.status_code)
-print(r.json())
+# r = requests.put(
+#     "http://127.0.0.1:8000/update/0?name=NewHammer&price=12.99&count=25"
+# )
+# print(r.status_code)
+# print(r.json())
 
-print(requests.get("http://127.0.0.1:8000/").json())
+# print(requests.get("http://127.0.0.1:8000/").json())
+
+# ---------------
+
+# Filtrera på category
+print(requests.get("http://127.0.0.1:8000/items?category=tools").json())

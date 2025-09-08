@@ -1,3 +1,6 @@
+# I konsolen:
+#   - uv pip install -r \requirements.txt
+
 fastapi
 uvicorn
 ollama
