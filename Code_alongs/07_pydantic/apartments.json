@@ -1,0 +1,39 @@
+{
+   "objects": [
+      {
+         "address": "Karlaplan 10, Stockholm",
+         "city": "Stockholm",
+         "price_sek": 7500000,
+         "monthly_fee": 3800,
+         "area": 65
+      },
+      {
+         "address": "Linnégatan 25, Göteborg",
+         "city": "Göteborg",
+         "price_sek": 4800000,
+         "monthly_fee": 3200,
+         "area": 55
+      },
+      {
+         "address": "Västra Hamngatan 7, Malmö",
+         "city": "Malmö",
+         "price_sek": 3500000,
+         "monthly_fee": 4500,
+         "area": 75
+      },
+      {
+         "address": "Sysslomansgatan 15, Uppsala",
+         "city": "Uppsala",
+         "price_sek": 2950000,
+         "monthly_fee": 2900,
+         "area": 50
+      },
+      {
+         "address": "Ågatan 12, Linköping",
+         "city": "Linköping",
+         "price_sek": 2200000,
+         "monthly_fee": 3600,
+         "area": 70
+      }
+   ]
+}
