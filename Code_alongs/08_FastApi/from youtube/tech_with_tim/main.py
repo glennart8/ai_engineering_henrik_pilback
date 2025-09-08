@@ -10,5 +10,15 @@
 # ------- PYCHARM --------
 # 
 
+from fastapi import FastAPI
+import ollama
 
+app = FastAPI()
 
+@app.post("/generate")
+def generate(promt: str):
+    response = ollama.chat(model="mistral", messages = [{"role": "user", "content": promt}])
+    return {"response": response["message"]["content"]}
+
+# I konsol:
+#   - uvicorn main:app --reload

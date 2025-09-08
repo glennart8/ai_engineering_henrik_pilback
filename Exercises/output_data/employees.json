@@ -1,0 +1,184 @@
+{
+   "objects": [
+      {
+         "first_name": "Johan",
+         "last_name": "Karlsson",
+         "phone_number": "+46 70 1234567",
+         "email": "johan.karlsson@examplecompany.se",
+         "department": "IT",
+         "salary": 58000,
+         "title": "Senior Utvecklare"
+      },
+      {
+         "first_name": "Anna",
+         "last_name": "Lindberg",
+         "phone_number": "+46 70 2345678",
+         "email": "anna.lindberg@examplecompany.se",
+         "department": "HR",
+         "salary": 42000,
+         "title": "HR Business Partner"
+      },
+      {
+         "first_name": "Sara",
+         "last_name": "Eriksson",
+         "phone_number": "+46 70 3456789",
+         "email": "sara.eriksson@examplecompany.se",
+         "department": "Marketing",
+         "salary": 48000,
+         "title": "Digital Marknadsförare"
+      },
+      {
+         "first_name": "Erik",
+         "last_name": "Andersson",
+         "phone_number": "+46 70 4567890",
+         "email": "erik.andersson@examplecompany.se",
+         "department": "Sales",
+         "salary": 45000,
+         "title": "Säljare"
+      },
+      {
+         "first_name": "Maria",
+         "last_name": "Johansson",
+         "phone_number": "+46 70 5678901",
+         "email": "maria.johansson@examplecompany.se",
+         "department": "IT",
+         "salary": 45000,
+         "title": "IT Supporttekniker"
+      },
+      {
+         "first_name": "Daniel",
+         "last_name": "Gustavsson",
+         "phone_number": "+46 70 6789012",
+         "email": "daniel.gustavsson@examplecompany.se",
+         "department": "HR",
+         "salary": 38000,
+         "title": "HR-koordinator"
+      },
+      {
+         "first_name": "Sofia",
+         "last_name": "Nilsson",
+         "phone_number": "+46 70 7890123",
+         "email": "sofia.nilsson@examplecompany.se",
+         "department": "Marketing",
+         "salary": 39000,
+         "title": "Marknadsassistent"
+      },
+      {
+         "first_name": "Magnus",
+         "last_name": "Pettersson",
+         "phone_number": "+46 70 8901234",
+         "email": "magnus.pettersson@examplecompany.se",
+         "department": "Sales",
+         "salary": 62000,
+         "title": "Key Account Manager"
+      },
+      {
+         "first_name": "Emma",
+         "last_name": "Svensson",
+         "phone_number": "+46 70 9012345",
+         "email": "emma.svensson@examplecompany.se",
+         "department": "IT",
+         "salary": 68000,
+         "title": "IT Projektledare"
+      },
+      {
+         "first_name": "Oskar",
+         "last_name": "Jansson",
+         "phone_number": "+46 70 1122334",
+         "email": "oskar.jansson@examplecompany.se",
+         "department": "HR",
+         "salary": 55000,
+         "title": "Rekryteringsspecialist"
+      },
+      {
+         "first_name": "Linnéa",
+         "last_name": "Jonsson",
+         "phone_number": "+46 70 2233445",
+         "email": "linnea.jonsson@examplecompany.se",
+         "department": "Marketing",
+         "salary": 55000,
+         "title": "Content Manager"
+      },
+      {
+         "first_name": "Fredrik",
+         "last_name": "Larsson",
+         "phone_number": "+46 70 3344556",
+         "email": "fredrik.larsson@examplecompany.se",
+         "department": "Sales",
+         "salary": 75000,
+         "title": "Försäljningschef"
+      },
+      {
+         "first_name": "Elin",
+         "last_name": "Olsson",
+         "phone_number": "+46 70 4455667",
+         "email": "elin.olsson@examplecompany.se",
+         "department": "IT",
+         "salary": 72000,
+         "title": "Systemarkitekt"
+      },
+      {
+         "first_name": "David",
+         "last_name": "Persson",
+         "phone_number": "+46 70 5566778",
+         "email": "david.persson@examplecompany.se",
+         "department": "HR",
+         "salary": 68000,
+         "title": "HR Chef"
+      },
+      {
+         "first_name": "Petra",
+         "last_name": "Söderberg",
+         "phone_number": "+46 70 6677889",
+         "email": "petra.soderberg@examplecompany.se",
+         "department": "Marketing",
+         "salary": 70000,
+         "title": "Marknadschef"
+      },
+      {
+         "first_name": "Alexander",
+         "last_name": "Berg",
+         "phone_number": "+46 70 7788990",
+         "email": "alexander.berg@examplecompany.se",
+         "department": "Sales",
+         "salary": 85000,
+         "title": "Försäljningsdirektör"
+      },
+      {
+         "first_name": "Josefin",
+         "last_name": "Dahlberg",
+         "phone_number": "+46 70 8899001",
+         "email": "josefin.dahlberg@examplecompany.se",
+         "department": "IT",
+         "salary": 85000,
+         "title": "CTO"
+      },
+      {
+         "first_name": "Viktor",
+         "last_name": "Westberg",
+         "phone_number": "+46 70 9900112",
+         "email": "viktor.westberg@examplecompany.se",
+         "department": "HR",
+         "salary": 50000,
+         "title": "Employer Branding Specialist"
+      },
+      {
+         "first_name": "Ida",
+         "last_name": "Lundgren",
+         "phone_number": "+46 70 1010203",
+         "email": "ida.lundgren@examplecompany.se",
+         "department": "Marketing",
+         "salary": 88000,
+         "title": "Chief Marketing Officer"
+      },
+      {
+         "first_name": "Niklas",
+         "last_name": "Åberg",
+         "phone_number": "+46 70 3030405",
+         "email": "niklas.aberg@examplecompany.se",
+         "department": "Sales",
+         "salary": 52000,
+         "title": "Business Development Representative"
+      }
+   ]
+}

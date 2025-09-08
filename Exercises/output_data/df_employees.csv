@@ -1,0 +1,21 @@
+,first_name,last_name,phone_number,email,department,salary,title
+0,Johan,Karlsson,+46 70 1234567,johan.karlsson@examplecompany.se,IT,58000,Senior Utvecklare
+1,Anna,Lindberg,+46 70 2345678,anna.lindberg@examplecompany.se,HR,42000,HR Business Partner
+2,Sara,Eriksson,+46 70 3456789,sara.eriksson@examplecompany.se,Marketing,48000,Digital Marknadsförare
+3,Erik,Andersson,+46 70 4567890,erik.andersson@examplecompany.se,Sales,45000,Säljare
+4,Maria,Johansson,+46 70 5678901,maria.johansson@examplecompany.se,IT,45000,IT Supporttekniker
+5,Daniel,Gustavsson,+46 70 6789012,daniel.gustavsson@examplecompany.se,HR,38000,HR-koordinator
+6,Sofia,Nilsson,+46 70 7890123,sofia.nilsson@examplecompany.se,Marketing,39000,Marknadsassistent
+7,Magnus,Pettersson,+46 70 8901234,magnus.pettersson@examplecompany.se,Sales,62000,Key Account Manager
+8,Emma,Svensson,+46 70 9012345,emma.svensson@examplecompany.se,IT,68000,IT Projektledare
+9,Oskar,Jansson,+46 70 1122334,oskar.jansson@examplecompany.se,HR,55000,Rekryteringsspecialist
+10,Linnéa,Jonsson,+46 70 2233445,linnea.jonsson@examplecompany.se,Marketing,55000,Content Manager
+11,Fredrik,Larsson,+46 70 3344556,fredrik.larsson@examplecompany.se,Sales,75000,Försäljningschef
+12,Elin,Olsson,+46 70 4455667,elin.olsson@examplecompany.se,IT,72000,Systemarkitekt
+13,David,Persson,+46 70 5566778,david.persson@examplecompany.se,HR,68000,HR Chef
+14,Petra,Söderberg,+46 70 6677889,petra.soderberg@examplecompany.se,Marketing,70000,Marknadschef
+15,Alexander,Berg,+46 70 7788990,alexander.berg@examplecompany.se,Sales,85000,Försäljningsdirektör
+16,Josefin,Dahlberg,+46 70 8899001,josefin.dahlberg@examplecompany.se,IT,85000,CTO
+17,Viktor,Westberg,+46 70 9900112,viktor.westberg@examplecompany.se,HR,50000,Employer Branding Specialist
+18,Ida,Lundgren,+46 70 1010203,ida.lundgren@examplecompany.se,Marketing,88000,Chief Marketing Officer
+19,Niklas,Åberg,+46 70 3030405,niklas.aberg@examplecompany.se,Sales,52000,Business Development Representative
