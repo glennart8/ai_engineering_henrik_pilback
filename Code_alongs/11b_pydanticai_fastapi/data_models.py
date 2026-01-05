@@ -1,9 +1,9 @@
 from pydantic import BaseModel, Field
 
-
+# Lägg till mer description för att få bättre output från llm
 class Movie(BaseModel):
     title: str
-    year: int
+    year: int = Field(description="Year of release")
     genre: str
     rating: int = Field(
         gt=0, 
