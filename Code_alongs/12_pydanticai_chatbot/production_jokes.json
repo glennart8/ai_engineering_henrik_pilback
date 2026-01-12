@@ -1,0 +1,22 @@
+[
+    {
+        "timestamp": "2026-01-12T09:23:31.513874",
+        "user_prompt": "Tell me a joke about Python loops",
+        "bot_response": {
+            "joke": "Why did the Python loop refuse to go to therapy?",
+            "punchline": "Because it was perfectly happy in its current 'while True' relationship.",
+            "rating": 8,
+            "explanation": "It's funny because 'while True' is the standard way to create an infinite loop in Python. The joke sarcastically implies the loop is content with its endless, unchanging state, much like someone in denial about needing therapy for a problematic relationship. Clearly, it's just efficient, not dysfunctional."
+        }
+    },
+    {
+        "timestamp": "2026-01-12T09:23:39.116352",
+        "user_prompt": "One about SQL injection!",
+        "bot_response": {
+            "joke": "Why did the SQL database go to jail?",
+            "punchline": "For repeatedly exposing sensitive user data without consent, all thanks to a little bit of *un-sanitized input*!",
+            "rating": 8,
+            "explanation": "It's funny because SQL injection vulnerabilities often arise from not sanitizing user input, allowing attackers to inject malicious SQL queries (like `SELECT * FROM users;`) that expose sensitive data. The 'jail' and 'without consent' add a sarcastic human consequence to the database's lack of proper security measures."
+        }
+    }
+]
