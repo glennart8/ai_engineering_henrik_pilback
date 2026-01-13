@@ -1,5 +1,5 @@
 from pydantic_ai import Agent
-from backend.data_models import Prompt, RagResponse
+from backend.data_models import RagResponse
 from backend.constants import VECTOR_DATABASE_PATH
 import lancedb
 
@@ -19,7 +19,7 @@ rag_agent = Agent(
 )
 
 @rag_agent.tool_plain
-def retrieve_top_dockuments(query: str, k=3) -> str:
+def retrieve_top_documents(query: str, k=3) -> str:
     """
     Uses vector search to find the closest k matching documents to the query
     """
@@ -34,6 +34,22 @@ def retrieve_top_dockuments(query: str, k=3) -> str:
     Content: {top_result["content"]}
     """
 
+
+@rag_agent.tool_plain
+def list_available_documents() -> str:
+    """
+    List all file names currently in the database. 
+    Use this when the user asks what documents are available or what you can read.
+    """
+    # Hämtar alla rader som en pandas dataframe (effektivt för mindre datamängder)
+    df = vector_db["articles"].to_pandas()
+    
+    if df.empty:
+        return "The database is empty."
+        
+    # Returnerar en lista med unika filnamn
+    unique_files = df["filename"].unique()
+    return ", ".join(unique_files)
 
     
     

@@ -1,4 +1,3 @@
-from json import load
 from pydantic import BaseModel, Field
 from lancedb.embeddings import get_registry
 from lancedb.pydantic import LanceModel, Vector
@@ -15,11 +14,12 @@ class Article(LanceModel):
     filepath: str
     filename: str = Field(description="the stem of the file i.e. without the suffix")
     content: str = embedding_model.SourceField()
-    embedding: Vector(EMBEDDING_DIM) = embedding_model.VectorField()
+    embedding: Vector(dim=EMBEDDING_DIM) = embedding_model.VectorField()
     
 
 class Prompt(BaseModel):
     prompt: str = Field(description="prompt from user, if empty consider it as missing")
+    
     
 class RagResponse(BaseModel):
     filename: str = Field(description="filenamn of retrieved file witout suffix")
